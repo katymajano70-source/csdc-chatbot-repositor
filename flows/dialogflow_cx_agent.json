@@ -1,0 +1,63 @@
+{
+  "displayName": "CSDC_Chatbot_Atencion_Ciudadana_CX",
+  "defaultLanguageCode": "es",
+  "timeZone": "America/El_Salvador",
+  "description": "Prototipo Lite de Chatbot Asistente en la Nube para el Centro de Servicios Digitales Ciudadanos (CSDC)",
+  "intents": [
+    {
+      "displayName": "welcome_intent",
+      "trainingPhrases": [
+        "Hola", "Buenas tardes", "Inicio", "Necesito información sobre trámites", "¿Qué consultas puedo hacer?"
+      ],
+      "responses": [
+        "¡Hola! 👋 Bienvenido al Asistente Virtual del Centro de Servicios Digitales Ciudadanos (CSDC). ¿En qué puedo ayudarte hoy?\n1. Trámites en Simple.sv\n2. Crear Identidad Digital\n3. Registrar Caso / Denuncia (SAC)\n4. Cursos ESIT\n5. Soporte Técnico"
+      ]
+    },
+    {
+      "displayName": "consultar_tramite_simplesv",
+      "trainingPhrases": [
+        "¿Cuánto cuestan los antecedentes penales?",
+        "Requisitos para solvencia policial",
+        "Pasaporte en el exterior",
+        "Apostillado electrónico",
+        "Trámites disponibles en Simple.sv"
+      ]
+    },
+    {
+      "displayName": "crear_identidad_digital",
+      "trainingPhrases": [
+        "¿Cómo creo mi cuenta en Simple.sv?",
+        "No puedo iniciar sesión en login.gob.sv",
+        "Pasos para registrar mi Identidad Digital",
+        "¿Qué necesito para registrarme con DUI?"
+      ]
+    },
+    {
+      "displayName": "registrar_denuncia_sac",
+      "trainingPhrases": [
+        "Quiero poner un reclamo sobre un hospital",
+        "Denuncia anónima en el SAC",
+        "Registrar caso para educación o salud",
+        "Consultar estado de expediente SAC"
+      ]
+    },
+    {
+      "displayName": "informacion_esit",
+      "trainingPhrases": [
+        "Cursos de la ESIT",
+        "Capacitación en Scrum o MySQL",
+        "Escuela Superior de Innovación y Tecnología",
+        "Cursos gratuitos de gobernanza digital"
+      ]
+    },
+    {
+      "displayName": "contacto_soporte",
+      "trainingPhrases": [
+        "Hablar con un operador humano",
+        "Correo de ayuda Simple.sv",
+        "Teléfono del SAC",
+        "Atención al cliente"
+      ]
+    }
+  ]
+}

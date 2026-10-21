@@ -1,0 +1,17 @@
+{
+  "detectIntentResponseId": "test-123",
+  "intentInfo": {
+    "displayName": "registrar_denuncia_sac"
+  },
+  "sessionInfo": {
+    "session": "sessions/test-session-001",
+    "parameters": {
+      "nombre_ciudadano": "Carlos Mendoza",
+      "correo_contacto": "carlos.mendoza@test.com",
+      "telefono_contacto": "+50378901234",
+      "sector": "Salud",
+      "institucion": "Hospital Rosales",
+      "detalle_caso": "Prueba de integración de webhook desde test script"
+    }
+  }
+}

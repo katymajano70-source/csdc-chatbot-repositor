@@ -1,0 +1,21 @@
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+
+# Credentials & Service Accounts
+service_account.json
+*.json
+!flows/*.json
+!tests/*.json
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
