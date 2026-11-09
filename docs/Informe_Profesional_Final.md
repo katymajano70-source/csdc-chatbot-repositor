@@ -6,7 +6,7 @@
 ---
 
 ## 1. Resumen Ejecutivo
-El presente informe documenta el desarrollo, pruebas y despliegue del prototipo de **Chatbot Asistente en la Nube** orientado a la atención automatizada de la ciudadanía salvadoreña. En el marco de la Estancia Profesional de 10 semanas de la ESIT, se construyó una solución conversacional basada en **Dialogflow CX / n8n** e integrada con **Google Sheets** mediante un backend webhook en Python.
+El presente informe documenta el desarrollo, pruebas y despliegue del prototipo de **Chatbot Asistente en la Nube** orientado a la atención automatizada de la ciudadanía salvadoreña. En el marco de la Estancia Profesional de 10 semanas de la ESIT, se construyó una solución conversacional basada en **Dialogflow CX / * e integrada con **Google Sheets** mediante un backend webhook en Python.
 
 ---
 
