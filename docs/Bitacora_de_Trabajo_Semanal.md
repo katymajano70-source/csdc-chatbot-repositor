@@ -19,7 +19,7 @@
 
 ### Semanas 6, 7 y 8 - Fase 3: Implementación, Webhooks y Pruebas
 * **Actividades:** Desarrollo del webhook backend en Python (`src/main.py`), conexión con Google Sheets API y ejecución de la matriz de pruebas conversacionales (QA).
-* **Entregables:** `src/main.py`, `flows/n8n_workflow_csdc.json` y `Matriz_de_Pruebas_Conversacionales.md`.
+* **Entregables:** `src/main.py`,  y `Matriz_de_Pruebas_Conversacionales.md`.
 
 ### Semanas 9 y 10 - Fase 4: Cierre Técnico y Entrega Profesional
 * **Actividades:** Redacción del informe final, revisión de limitaciones y empaquetado del repositorio completo para entrega institucional y publicación en GitHub.
