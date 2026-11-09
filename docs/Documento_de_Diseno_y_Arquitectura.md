@@ -13,7 +13,7 @@ El prototipo conversacional se estructura en cuatro capas desacopladas:
 [ Canal de Mensajería ]
         │
         ▼ (Webhook HTTP / JSON API)
-[ Dialogflow CX / n8n NLP Engine ] ──(Fulfillment Request)──► [ Webhook Backend / Cloud Function ]
+[ Dialogflow CX /  ] ──(Fulfillment Request)──► [ Webhook Backend / Cloud Function ]
                                                                        │
                                                                        ▼
                                                              [ Google Sheets API ]
