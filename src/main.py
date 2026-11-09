@@ -5,12 +5,12 @@ from flask import Flask, request, jsonify
 app = Flask(_name_)
 
 def handle_webhook_request(req_data):
-    session_info = req_data.get("sessionInfo", {})
-    parameters = session_info.get("parameters", {})
+    session_info = req_data.get("sessionInfo",{})
+    parameters = session_info.get("parameters",{})
     
-    nombre = parameters.get("nombre_ciudadano", "Anónimo")
-    correo = parameters.get("correo_contacto", "N/A")
-    sector = parameters.get("sector", "General")
+    nombre = parameters.get("nombre_ciudadano","Anónimo")
+    correo = parameters.get("correo_contacto","N/A")
+    sector = parameters.get("sector","General")
     
     response_text = f"Solicitud registrada para {nombre} ({sector}). Contacto: {correo}"
     
